@@ -22,6 +22,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         coolTable.delegate = self
     }
     
+    // Amount of rows in table
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return instruments.count
@@ -41,7 +42,20 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         return cell
         
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        let instrument = instruments[indexPath.row]
+        
+        performSegue(withIdentifier: "moveSegue", sender: instrument)
+    
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        <#code#>
     }
 
     override func didReceiveMemoryWarning() {
