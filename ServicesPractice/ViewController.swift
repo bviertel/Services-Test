@@ -32,7 +32,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     // Following function decides what is in each cell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        
+        // Essentially I believe it is initializing all the cells
+        let cell = UITableViewCell()
+        
+        // Filling the table with my instruments
+        cell.textLabel?.text = instruments[indexPath.row]
+        
+        return cell
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
