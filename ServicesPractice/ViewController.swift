@@ -55,7 +55,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        <#code#>
+        
+        let descVC = segue.destination as! DescViewController
+        
+        descVC.instrument = sender as! String
+        
     }
 
     override func didReceiveMemoryWarning() {

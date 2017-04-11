@@ -12,6 +12,7 @@
 		28B455BE1E99A5E0000F8EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B455BC1E99A5E0000F8EE9 /* Main.storyboard */; };
 		28B455C01E99A5E0000F8EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B455BF1E99A5E0000F8EE9 /* Assets.xcassets */; };
 		28B455C31E99A5E0000F8EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B455C11E99A5E0000F8EE9 /* LaunchScreen.storyboard */; };
+		28B455CB1E99ADF0000F8EE9 /* DescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B455CA1E99ADF0000F8EE9 /* DescViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		28B455BF1E99A5E0000F8EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B455C21E99A5E0000F8EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28B455C41E99A5E0000F8EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B455CA1E99ADF0000F8EE9 /* DescViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				28B455B81E99A5E0000F8EE9 /* AppDelegate.swift */,
 				28B455BA1E99A5E0000F8EE9 /* ViewController.swift */,
 				28B455BC1E99A5E0000F8EE9 /* Main.storyboard */,
+				28B455CA1E99ADF0000F8EE9 /* DescViewController.swift */,
 				28B455BF1E99A5E0000F8EE9 /* Assets.xcassets */,
 				28B455C11E99A5E0000F8EE9 /* LaunchScreen.storyboard */,
 				28B455C41E99A5E0000F8EE9 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B455BB1E99A5E0000F8EE9 /* ViewController.swift in Sources */,
+				28B455CB1E99ADF0000F8EE9 /* DescViewController.swift in Sources */,
 				28B455B91E99A5E0000F8EE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
