@@ -12,8 +12,15 @@ class DescViewController: UIViewController {
 
     var instrument =  "null"
     
+    @IBOutlet weak var instrumentLabel: UILabel!
+    
+    @IBOutlet weak var descLabel: UILabel!
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        
+        descLabel.text = instrument
 
         // Do any additional setup after loading the view.
     }
